@@ -1,0 +1,39 @@
+# Environments and Secrets
+.env
+__pycache__/
+.cache/
+
+# Databases and Memory Logs
+chroma_db/
+chat_history.json
+long_term_memory.json
+memory.txt
+chat_analysis.txt
+ai responses.txt
+brain.txt
+
+# Machine Learning Models & Weights
+*.onnx
+*.tflite
+*.ort
+*.zip
+vosk-model-*/
+
+# Audio and Media Files
+*.wav
+*.mp3
+temp_speech_*/
+raw_footage/
+my-video-project/
+archive/
+
+# Executables and Binaries
+*.exe
+*.msi
+*.dll
+piper/
+stable-diffusion-webui/
+
+# IDE and System Files
+.vscode/
+*.VSIXPackage
